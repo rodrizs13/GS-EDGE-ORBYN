@@ -1,84 +1,100 @@
 # GS-EDGE-ORBYN 
-ORBYN Environment
-A História da ORBYN
+# GS-EDGE-ORBYN
 
-A humanidade sempre enfrentou desafios causados pela falta de planejamento e pela dificuldade de compreender o território em que vive. Ao longo dos anos, o crescimento acelerado das cidades, as mudanças climáticas e a expansão das atividades agrícolas aumentaram a complexidade desses desafios.
+## Descrição do Projeto
 
-Os impactos podem ser observados diariamente: má distribuição de recursos, problemas de infraestrutura urbana, desperdício de água, ocupação desordenada do solo, redução da qualidade de vida e prejuízos causados por eventos ambientais extremos. Muitas vezes, esses problemas não acontecem por falta de informação, mas pela dificuldade de monitorar grandes áreas, interpretar dados e transformar informações dispersas em decisões estratégicas.
+A ORBYN Environment é uma plataforma de inteligência territorial desenvolvida para auxiliar no planejamento urbano e rural através da análise de dados ambientais, geográficos e territoriais.
 
-Foi a partir dessa realidade que surgiu a ORBYN.
+O projeto surgiu da necessidade de compreender melhor os impactos do crescimento das cidades, das mudanças climáticas e da expansão agrícola. Através da integração de tecnologia, análise espacial e inteligência artificial, a ORBYN busca transformar grandes volumes de dados em informações estratégicas para apoiar a tomada de decisões.
 
-A ORBYN Environment é uma plataforma criada para utilizar tecnologia, análise territorial e inteligência de dados na construção de soluções voltadas ao planejamento urbano e rural. Seu principal objetivo é transformar grandes volumes de informações geográficas, ambientais e territoriais em conhecimento acessível para apoiar a tomada de decisões.
+A proposta permite identificar áreas de risco, monitorar condições ambientais, analisar padrões territoriais e gerar recomendações que contribuam para um desenvolvimento mais sustentável.
 
-A proposta da ORBYN é permitir que governos, empresas, produtores rurais, pesquisadores e analistas consigam visualizar e compreender melhor o comportamento de regiões inteiras, identificando oportunidades e prevenindo problemas antes que eles gerem impactos significativos.
+---
 
-Por meio da integração de dados ambientais, indicadores territoriais e inteligência artificial, a plataforma busca oferecer análises capazes de auxiliar desde o crescimento sustentável das cidades até a otimização da produtividade agrícola.
+## Objetivo da Solução
 
-O Problema
+A solução tem como objetivo fornecer informações confiáveis para auxiliar governos, empresas, pesquisadores e produtores rurais na tomada de decisões.
 
-Atualmente, muitas decisões relacionadas ao uso do solo, expansão urbana e gestão agrícola ainda dependem de processos fragmentados e da análise de dados isolados.
+Entre seus principais objetivos estão:
 
-Isso dificulta a identificação de:
+- Monitorar condições ambientais;
+- Auxiliar no planejamento urbano;
+- Apoiar a gestão de propriedades rurais;
+- Identificar riscos ambientais;
+- Melhorar a utilização dos recursos naturais;
+- Transformar dados em insights estratégicos.
 
-Áreas de risco ambiental;
-Problemas de infraestrutura urbana;
-Regiões com crescimento desordenado;
-Falhas em sistemas de irrigação;
-Uso inadequado do solo;
-Possíveis impactos causados por eventos climáticos.
+---
 
-Sem informações integradas, decisões importantes podem ser tomadas de forma tardia, aumentando prejuízos econômicos, sociais e ambientais.
+## Componentes Utilizados
 
-Nossa Solução
+### Hardware
 
-A ORBYN propõe uma plataforma inteligente de análise geoespacial capaz de centralizar informações urbanas e rurais em um único ambiente digital.
+- Arduino Uno
+- Sensor DHT22
+- Display LCD I2C 16x2
+- Protoboard
+- Jumpers
 
-A plataforma foi idealizada para fornecer:
+### Software
 
-Visualização de mapas interativos;
-Análise de indicadores ambientais;
-Monitoramento territorial;
-Geração de insights automáticos;
-Recomendações baseadas em inteligência artificial;
-Alertas preventivos sobre possíveis riscos.
+- Arduino IDE
+- Linguagem C++
+- Biblioteca DHT
+- Biblioteca Wire
+- Biblioteca LiquidCrystal_I2C
 
-O objetivo é transformar dados em decisões mais rápidas, sustentáveis e eficientes.
+---
 
-Protótipo com Arduino
+## Explicação do Funcionamento
 
-Como demonstração inicial do conceito da ORBYN, foi desenvolvido um sistema embarcado utilizando Arduino.
+O protótipo utiliza um sensor DHT22 para coletar dados de temperatura e umidade do ambiente.
 
-O protótipo é responsável por monitorar condições ambientais através de sensores e exibir informações em tempo real.
+As informações capturadas são enviadas ao Arduino, que realiza o processamento dos dados e exibe os resultados em um display LCD I2C.
 
-Componentes Utilizados
+O monitoramento acontece continuamente, permitindo que o usuário acompanhe as condições ambientais em tempo real.
+
+Fluxo de funcionamento:
+
+1. O sensor realiza a leitura da temperatura e umidade.
+2. Os dados são enviados para o Arduino.
+3. O Arduino processa as informações.
+4. Os valores são exibidos no display LCD.
+5. O ciclo se repete continuamente.
+
+---
+
+## Estrutura do Circuito
+
+### Sensor DHT22
+
+| DHT22 | Arduino |
+|--------|---------|
+| VCC | 5V |
+| DATA | Pino 2 |
+| GND | GND |
+
+### Display LCD I2C
+
+| LCD I2C | Arduino |
+|----------|----------|
+| VCC | 5V |
+| GND | GND |
+| SDA | A4 |
+| SCL | A5 |
+
+### Diagrama Simplificado
+
+```text
+DHT22
+ ├── VCC → 5V
+ ├── DATA → Pino 2
+ └── GND → GND
+
+LCD I2C
+ ├── VCC → 5V
+ ├── GND → GND
+ ├── SDA → A4
+ └── SCL → A5
+
 Arduino Uno
-Sensor DHT22
-Display LCD I2C 16x2
-Protoboard
-Jumpers
-Funcionamento
-
-O sensor DHT22 realiza leituras periódicas de temperatura e umidade do ambiente.
-
-Esses dados são enviados ao Arduino, processados pelo sistema e exibidos diretamente no display LCD, permitindo acompanhamento instantâneo das condições ambientais.
-
-Essa etapa representa uma pequena parte da visão da ORBYN, servindo como base para futuras integrações com plataformas web, inteligência artificial e análise territorial em larga escala.
-
-Visão de Futuro
-
-A evolução da ORBYN busca permitir que usuários possam:
-
-Selecionar regiões urbanas ou rurais em mapas interativos;
-Visualizar dashboards territoriais;
-Receber alertas ambientais;
-Comparar diferentes regiões;
-Gerar relatórios automáticos;
-Receber recomendações baseadas em inteligência artificial.
-
-O resultado esperado é uma tomada de decisão baseada em dados, promovendo:
-
-Planejamento urbano mais eficiente;
-Melhor aproveitamento do solo agrícola;
-Otimização de recursos hídricos;
-Redução de riscos ambientais;
-Crescimento sustentável de cidades e propriedades rurais.
