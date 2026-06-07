@@ -95,6 +95,35 @@ O protótipo é responsável por coletar dados do ambiente e exibir informaçõe
 - Biblioteca LiquidCrystal_I2C
 
 ---
+Vídeo do Pitch
+
+Para apresentar a proposta da ORBYN Environment, foi desenvolvido um vídeo de Pitch que demonstra o contexto do problema, a solução proposta, os objetivos do projeto e os benefícios da utilização de inteligência espacial na análise territorial.
+
+O vídeo apresenta:
+
+O problema enfrentado por áreas urbanas e rurais;
+A proposta da ORBYN Environment;
+As funcionalidades da plataforma;
+O protótipo de Edge Computing desenvolvido;
+Os benefícios da tomada de decisão baseada em dados;
+Os impactos esperados para sustentabilidade e planejamento territorial.
+Acesse o vídeo do Pitch
+
+Link do vídeo: 
+
+Todo o material relacionado à ORBYN Environment está disponível através do repositório oficial do projeto.
+
+No repositório podem ser encontrados:
+
+Código-fonte;
+Documentação técnica;
+Diagramas do sistema;
+Protótipo Arduino;
+Apresentação do projeto;
+Materiais complementares.
+Acesse o projeto
+
+Link do prototipo 
 
 ## Explicação do Funcionamento
 
@@ -143,45 +172,5 @@ LCD I2C
 ├── GND → GND
 ├── SDA → A4
 └── SCL → A5
-## Vídeo do Pitch
 
-Para apresentar a proposta da ORBYN Environment, foi desenvolvido um vídeo de Pitch contendo a contextualização do problema, os objetivos do projeto, a solução proposta e os benefícios esperados para a gestão territorial.
-
-O vídeo aborda:
-
-* O cenário atual dos desafios urbanos e rurais;
-* A proposta da ORBYN Environment;
-* As funcionalidades da plataforma;
-* Os benefícios da análise geoespacial inteligente;
-* Os impactos esperados para a sustentabilidade e a tomada de decisões.
-
-### Acesse o vídeo do Pitch
-
-[INSERIR LINK DO VÍDEO AQUI]
-
----
-
-## Link do Projeto
-
-Toda a documentação e os materiais relacionados à ORBYN Environment estão disponíveis através do repositório oficial do projeto.
-
-O repositório contém:
-
-* Código-fonte da aplicação;
-* Documentação técnica;
-* Diagramas e arquitetura da solução;
-* Apresentação do projeto;
-* Arquivos complementares.
-
-### Acesse o projeto
-
-[INSERIR LINK DO REPOSITÓRIO AQUI]
-
----
-
-## Conclusão
-
-A ORBYN Environment foi criada com o objetivo de transformar dados territoriais em informações estratégicas para apoiar decisões mais inteligentes e sustentáveis.
-
-Por meio da integração entre análise geoespacial, inteligência artificial e visualização de dados, a plataforma busca contribuir para um melhor planejamento urbano, maior eficiência no uso do solo e uma gestão mais consciente dos recursos naturais, promovendo desenvolvimento sustentável para diferentes regiões.
 
