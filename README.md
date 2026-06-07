@@ -143,3 +143,45 @@ LCD I2C
 ├── GND → GND
 ├── SDA → A4
 └── SCL → A5
+## Vídeo do Pitch
+
+Para apresentar a proposta da ORBYN Environment, foi desenvolvido um vídeo de Pitch contendo a contextualização do problema, os objetivos do projeto, a solução proposta e os benefícios esperados para a gestão territorial.
+
+O vídeo aborda:
+
+* O cenário atual dos desafios urbanos e rurais;
+* A proposta da ORBYN Environment;
+* As funcionalidades da plataforma;
+* Os benefícios da análise geoespacial inteligente;
+* Os impactos esperados para a sustentabilidade e a tomada de decisões.
+
+### Acesse o vídeo do Pitch
+
+[INSERIR LINK DO VÍDEO AQUI]
+
+---
+
+## Link do Projeto
+
+Toda a documentação e os materiais relacionados à ORBYN Environment estão disponíveis através do repositório oficial do projeto.
+
+O repositório contém:
+
+* Código-fonte da aplicação;
+* Documentação técnica;
+* Diagramas e arquitetura da solução;
+* Apresentação do projeto;
+* Arquivos complementares.
+
+### Acesse o projeto
+
+[INSERIR LINK DO REPOSITÓRIO AQUI]
+
+---
+
+## Conclusão
+
+A ORBYN Environment foi criada com o objetivo de transformar dados territoriais em informações estratégicas para apoiar decisões mais inteligentes e sustentáveis.
+
+Por meio da integração entre análise geoespacial, inteligência artificial e visualização de dados, a plataforma busca contribuir para um melhor planejamento urbano, maior eficiência no uso do solo e uma gestão mais consciente dos recursos naturais, promovendo desenvolvimento sustentável para diferentes regiões.
+
