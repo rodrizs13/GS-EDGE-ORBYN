@@ -1,8 +1,10 @@
 # ORBYN Environment
 
-> Inteligência espacial para transformar dados territoriais em decisões mais inteligentes.
+<p align="center">
+  <img src="img/logo-orbyn.png" width="300">
+</p>
 
----
+> Inteligência espacial para transformar dados territoriais em decisões mais inteligentes.
 
 ## A História da ORBYN
 
