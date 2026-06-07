@@ -68,25 +68,32 @@ Desenvolver uma plataforma capaz de transformar dados em conhecimento, permitind
 
 ---
 
-## Protótipo Edge Computing
+# Protótipo Edge Computing
 
-Como prova de conceito da plataforma, foi desenvolvido um sistema embarcado utilizando Arduino para realizar o monitoramento ambiental local.
+Como prova de conceito da plataforma ORBYN Environment, foi desenvolvido um sistema embarcado utilizando Arduino Uno para realizar o monitoramento ambiental local e a identificação de possíveis situações de risco.
 
-O protótipo é responsável por coletar dados do ambiente e exibir informações em tempo real, demonstrando como dispositivos de Edge Computing podem ser utilizados para capturar informações importantes diretamente na origem.
+O protótipo simula a coleta de dados ambientais em áreas urbanas e rurais, demonstrando como dispositivos de Edge Computing podem processar informações diretamente na origem antes de enviá-las para sistemas de análise territorial.
+
+Além da coleta de dados, o sistema também é capaz de emitir alertas visuais e sonoros quando condições consideradas críticas são identificadas.
 
 ---
 
-## Componentes Utilizados
+# Componentes Utilizados
 
-### Hardware
+## Hardware
 
 * Arduino Uno
 * Sensor DHT22
+* Sensor de Luminosidade (LDR)
 * Display LCD I2C 16x2
+* LED Verde
+* LED Amarelo
+* LED Vermelho
+* Buzzer
 * Protoboard
 * Jumpers
 
-### Software
+## Software
 
 * Arduino IDE
 * Linguagem C++
@@ -96,32 +103,82 @@ O protótipo é responsável por coletar dados do ambiente e exibir informaçõe
 
 ---
 
-## Explicação do Funcionamento
+# Explicação do Funcionamento
 
-O sistema realiza leituras contínuas da temperatura e da umidade do ambiente utilizando o sensor DHT22.
+O sistema realiza leituras contínuas da temperatura, umidade e luminosidade do ambiente.
 
-As informações são enviadas para o Arduino, que processa os dados localmente e apresenta os resultados em um display LCD.
+Os dados são processados localmente pelo Arduino, simulando o conceito de Edge Computing utilizado pela plataforma ORBYN.
 
-### Fluxo de execução
+O sensor DHT22 é responsável por coletar informações de temperatura e umidade, enquanto o sensor LDR representa indicadores territoriais monitorados pela plataforma, como expansão urbana, ocupação do solo e alterações ambientais.
 
-1. Coleta de dados pelo sensor DHT22;
-2. Processamento das informações pelo Arduino;
-3. Exibição dos resultados no display LCD;
-4. Atualização contínua das leituras.
+Com base nos valores coletados, o sistema classifica a situação em três níveis:
+
+### Estado Normal
+
+* LED Verde ligado;
+* Sistema operando normalmente;
+* LCD exibe mensagens informativas da ORBYN.
+
+### Estado de Atenção
+
+* LED Amarelo ligado;
+* Possível alteração ambiental detectada;
+* LCD apresenta mensagens de monitoramento.
+
+### Estado Crítico
+
+* LED Vermelho ligado;
+* Buzzer acionado;
+* LCD apresenta mensagens de alerta.
 
 ---
 
-## Estrutura do Circuito
+# Fluxo de Execução
 
-### Sensor DHT22
+1. Coleta de temperatura e umidade pelo DHT22;
+2. Coleta de luminosidade pelo sensor LDR;
+3. Processamento local dos dados pelo Arduino;
+4. Classificação do ambiente em Normal, Atenção ou Crítico;
+5. Acionamento dos LEDs e buzzer;
+6. Exibição das informações no display LCD;
+7. Atualização contínua dos dados.
+
+---
+
+# Estrutura do Circuito
+
+## Sensor DHT22
 
 | Pino DHT22 | Arduino |
 | ---------- | ------- |
 | VCC        | 5V      |
-| DATA       | Pino 2  |
+| DATA       | A1      |
 | GND        | GND     |
 
-### Display LCD I2C
+## Sensor LDR
+
+| Sensor | Arduino |
+| ------ | ------- |
+| VCC    | 5V      |
+| GND    | GND     |
+| AO     | A0      |
+
+## LEDs
+
+| LED      | Arduino |
+| -------- | ------- |
+| Verde    | Pino 7  |
+| Amarelo  | Pino 6  |
+| Vermelho | Pino 5  |
+
+## Buzzer
+
+| Componente | Arduino |
+| ---------- | ------- |
+| Positivo   | Pino 4  |
+| Negativo   | GND     |
+
+## Display LCD I2C
 
 | Pino LCD | Arduino |
 | -------- | ------- |
@@ -130,22 +187,22 @@ As informações são enviadas para o Arduino, que processa os dados localmente 
 | SDA      | A4      |
 | SCL      | A5      |
 
-### Esquema Simplificado
-
-```text
-DHT22
-├── VCC → 5V
-├── DATA → Pino 2
-└── GND → GND
-
-LCD I2C
-├── VCC → 5V
-├── GND → GND
-├── SDA → A4
-└── SCL → A5
-```
-
 ---
+
+# Aplicação na ORBYN
+
+O protótipo demonstra como dispositivos inteligentes podem coletar informações diretamente no território e fornecer respostas rápidas para apoiar a tomada de decisões.
+
+Na versão completa da plataforma, dados provenientes de sensores, imagens de satélite e sistemas geoespaciais seriam integrados para monitorar:
+
+* Expansão urbana;
+* Uso do solo;
+* Condições ambientais;
+* Recursos hídricos;
+* Planejamento territorial;
+* Áreas de risco.
+
+A proposta evidencia a aplicação prática de Edge Computing na coleta e processamento inicial dos dados antes da integração com sistemas maiores de Inteligência Artificial e análise geoespacial.
 
 ## Vídeo do Pitch
 
