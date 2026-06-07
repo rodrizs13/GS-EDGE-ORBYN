@@ -153,7 +153,7 @@ Com base nos valores coletados, o sistema classifica a situação em três níve
 O circuito abaixo representa o protótipo de Edge Computing desenvolvido para a ORBYN Environment.
 
 <p align="center">
-  <img src="img/circuito-orbyn.png" width="900">
+  <img src="12.png" width="900">
 </p>
 
 ## Sensor DHT22
