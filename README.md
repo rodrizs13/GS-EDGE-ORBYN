@@ -219,7 +219,7 @@ O vídeo apresenta:
 
 ### Acesse o vídeo do Pitch
 
-**Link:** [INSERIR LINK DO VÍDEO]
+**Link:** https://youtu.be/eMag72sRrt0
 
 ---
 
