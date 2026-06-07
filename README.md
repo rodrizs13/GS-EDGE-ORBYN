@@ -1,7 +1,7 @@
 # ORBYN Environment
 
 <p align="center">
-  <img src="img/logo-orbyn.png" width="300">
+  <img src="orbyn_logo_sem_fundo (1).png" width="300">
 </p>
 
 > Inteligência espacial para transformar dados territoriais em decisões mais inteligentes.
