@@ -26,12 +26,12 @@ Mais do que uma plataforma tecnológica, a ORBYN representa uma visão de futuro
 
 Atualmente, a análise territorial enfrenta diversos desafios:
 
-- Crescimento urbano desordenado;
-- Baixa eficiência na utilização do solo;
-- Desperdício de recursos hídricos;
-- Dificuldade de monitoramento ambiental;
-- Falta de integração entre diferentes fontes de dados;
-- Respostas lentas diante de riscos ambientais.
+* Crescimento urbano desordenado;
+* Baixa eficiência na utilização do solo;
+* Desperdício de recursos hídricos;
+* Dificuldade de monitoramento ambiental;
+* Falta de integração entre diferentes fontes de dados;
+* Respostas lentas diante de riscos ambientais.
 
 Esses fatores impactam diretamente a qualidade de vida da população, a produtividade agrícola e a sustentabilidade das regiões.
 
@@ -45,13 +45,13 @@ Por meio da combinação de dados ambientais, indicadores territoriais, imagens 
 
 ### Principais funcionalidades
 
-- Visualização de regiões urbanas e rurais;
-- Mapas interativos;
-- Dashboards analíticos;
-- Alertas ambientais;
-- Recomendações automáticas;
-- Relatórios estratégicos;
-- Monitoramento territorial.
+* Visualização de regiões urbanas e rurais;
+* Mapas interativos;
+* Dashboards analíticos;
+* Alertas ambientais;
+* Recomendações automáticas;
+* Relatórios estratégicos;
+* Monitoramento territorial.
 
 ---
 
@@ -59,12 +59,12 @@ Por meio da combinação de dados ambientais, indicadores territoriais, imagens 
 
 Desenvolver uma plataforma capaz de transformar dados em conhecimento, permitindo:
 
-- Melhor planejamento urbano;
-- Uso mais eficiente do solo agrícola;
-- Identificação de áreas de risco;
-- Otimização de recursos naturais;
-- Tomada de decisões baseada em evidências;
-- Promoção de práticas mais sustentáveis.
+* Melhor planejamento urbano;
+* Uso mais eficiente do solo agrícola;
+* Identificação de áreas de risco;
+* Otimização de recursos naturais;
+* Tomada de decisões baseada em evidências;
+* Promoção de práticas mais sustentáveis.
 
 ---
 
@@ -80,50 +80,21 @@ O protótipo é responsável por coletar dados do ambiente e exibir informaçõe
 
 ### Hardware
 
-- Arduino Uno
-- Sensor DHT22
-- Display LCD I2C 16x2
-- Protoboard
-- Jumpers
+* Arduino Uno
+* Sensor DHT22
+* Display LCD I2C 16x2
+* Protoboard
+* Jumpers
 
 ### Software
 
-- Arduino IDE
-- Linguagem C++
-- Biblioteca DHT
-- Biblioteca Wire
-- Biblioteca LiquidCrystal_I2C
+* Arduino IDE
+* Linguagem C++
+* Biblioteca DHT
+* Biblioteca Wire
+* Biblioteca LiquidCrystal_I2C
 
 ---
-Vídeo do Pitch
-
-Para apresentar a proposta da ORBYN Environment, foi desenvolvido um vídeo de Pitch que demonstra o contexto do problema, a solução proposta, os objetivos do projeto e os benefícios da utilização de inteligência espacial na análise territorial.
-
-O vídeo apresenta:
-
-O problema enfrentado por áreas urbanas e rurais;
-A proposta da ORBYN Environment;
-As funcionalidades da plataforma;
-O protótipo de Edge Computing desenvolvido;
-Os benefícios da tomada de decisão baseada em dados;
-Os impactos esperados para sustentabilidade e planejamento territorial.
-Acesse o vídeo do Pitch
-
-Link do vídeo: 
-
-Todo o material relacionado à ORBYN Environment está disponível através do repositório oficial do projeto.
-
-No repositório podem ser encontrados:
-
-Código-fonte;
-Documentação técnica;
-Diagramas do sistema;
-Protótipo Arduino;
-Apresentação do projeto;
-Materiais complementares.
-Acesse o projeto
-
-Link do prototipo 
 
 ## Explicação do Funcionamento
 
@@ -145,19 +116,19 @@ As informações são enviadas para o Arduino, que processa os dados localmente 
 ### Sensor DHT22
 
 | Pino DHT22 | Arduino |
-|------------|----------|
-| VCC | 5V |
-| DATA | Pino 2 |
-| GND | GND |
+| ---------- | ------- |
+| VCC        | 5V      |
+| DATA       | Pino 2  |
+| GND        | GND     |
 
 ### Display LCD I2C
 
 | Pino LCD | Arduino |
-|-----------|----------|
-| VCC | 5V |
-| GND | GND |
-| SDA | A4 |
-| SCL | A5 |
+| -------- | ------- |
+| VCC      | 5V      |
+| GND      | GND     |
+| SDA      | A4      |
+| SCL      | A5      |
 
 ### Esquema Simplificado
 
@@ -172,5 +143,52 @@ LCD I2C
 ├── GND → GND
 ├── SDA → A4
 └── SCL → A5
+```
 
+---
 
+## Vídeo do Pitch
+
+Para apresentar a proposta da ORBYN Environment, foi desenvolvido um vídeo de Pitch que demonstra o contexto do problema, os objetivos do projeto, a solução proposta e os benefícios da utilização de inteligência espacial para apoiar decisões territoriais.
+
+O vídeo apresenta:
+
+* O cenário atual dos desafios urbanos e rurais;
+* A proposta da ORBYN Environment;
+* As funcionalidades da plataforma;
+* A aplicação de tecnologias de análise geoespacial;
+* O protótipo de Edge Computing desenvolvido;
+* Os benefícios da tomada de decisão baseada em dados.
+
+### Acesse o vídeo do Pitch
+
+**Link:** [INSERIR LINK DO VÍDEO]
+
+---
+
+## Link do Projeto
+
+Todo o material relacionado ao desenvolvimento da ORBYN Environment está disponível no repositório oficial do projeto.
+
+No repositório é possível encontrar:
+
+* Código-fonte;
+* Documentação técnica;
+* Diagramas do sistema;
+* Código do protótipo Arduino;
+* Apresentações;
+* Arquivos complementares.
+
+### Acesse o projeto
+
+**Link:** [INSERIR LINK DO REPOSITÓRIO]
+
+---
+
+## Conclusão
+
+A ORBYN Environment foi criada para transformar dados territoriais em informações estratégicas capazes de apoiar decisões mais inteligentes e sustentáveis.
+
+Por meio da integração entre análise geoespacial, inteligência artificial e monitoramento ambiental, a plataforma busca contribuir para um melhor planejamento urbano, maior eficiência no uso do solo e uma gestão mais consciente dos recursos naturais.
+
+A proposta demonstra como a tecnologia pode ser utilizada para compreender melhor o território, antecipar desafios e auxiliar na construção de cidades e áreas rurais mais resilientes e sustentáveis.
