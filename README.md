@@ -192,3 +192,11 @@ A ORBYN Environment foi criada para transformar dados territoriais em informaç�
 Por meio da integração entre análise geoespacial, inteligência artificial e monitoramento ambiental, a plataforma busca contribuir para um melhor planejamento urbano, maior eficiência no uso do solo e uma gestão mais consciente dos recursos naturais.
 
 A proposta demonstra como a tecnologia pode ser utilizada para compreender melhor o território, antecipar desafios e auxiliar na construção de cidades e áreas rurais mais resilientes e sustentáveis.
+## Equipe ORBYN
+
+* **Eduardo Felix Frois Silva** — RM 574103
+* **Gabriel Henrique Ongarelli Reis** — RM 572636
+* **Lucas Rodrigues dos Santos** — RM 571778
+* **Matheus de Amorim Brito** — RM 572435
+* **Thiago Gomes Nascimento** — RM 569436
+
