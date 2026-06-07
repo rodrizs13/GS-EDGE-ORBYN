@@ -180,9 +180,7 @@ No repositório é possível encontrar:
 * Arquivos complementares.
 
 ### Acesse o projeto
-
-**Link:** [INSERIR LINK DO REPOSITÓRIO]
-
+link do projeto : https://wokwi.com/projects/466027691366771713
 ---
 
 ## Conclusão
