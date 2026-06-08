@@ -223,7 +223,6 @@ O vídeo apresenta:
 * A proposta da ORBYN Environment;
 * As funcionalidades da plataforma;
 * A aplicação de tecnologias de análise geoespacial;
-* O protótipo de Edge Computing desenvolvido;
 * Os benefícios da tomada de decisão baseada em dados.
 
 ### Acesse o vídeo do Pitch
