@@ -222,7 +222,6 @@ O vídeo apresenta:
 * O cenário atual dos desafios urbanos e rurais;
 * A proposta da ORBYN Environment;
 * As funcionalidades da plataforma;
-* A aplicação de tecnologias de análise geoespacial;
 * Os benefícios da tomada de decisão baseada em dados.
 
 ### Acesse o vídeo do Pitch
